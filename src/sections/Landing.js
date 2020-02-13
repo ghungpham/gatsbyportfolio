@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { StaticQuery, graphql } from 'gatsby';
-import { Heading, Flex, Box, Text } from 'rebass';
+import { Heading, Flex, Box, Button } from 'rebass';
 import TextLoop from 'react-text-loop';
 import { SectionLink } from 'react-scroll-section';
 import Section from '../components/Section';
@@ -70,13 +70,25 @@ const LandingPage = () => (
         return (
           <Fragment>
             <Heading
-              textAlign="center"
+              textAlign="left"
               as="h1"
-              color="textprimary"
+              color="#36506a"
               fontSize={[5, 6, 8]}
-              mb={[3, 4, 5]}
+              mb={[1, 2, 3]}
+              ml={[2, 3, 4]}
             >
-              {`Hello World, I'm ${name}!`}
+              {`${name}`}
+            </Heading>
+
+            <Heading
+              textAlign="left"
+              as="h2"
+              color="primary"
+              fontSize={[3, 4, 5]}
+              mb={[4, 5, 6]}
+              ml={[2, 3, 4]}
+            >
+              Full Stack Web Developer and Lifelong Learner
             </Heading>
 
             <Flex alignItems="center" justifyContent="center" flexWrap="wrap">
