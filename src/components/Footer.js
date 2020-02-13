@@ -47,7 +47,7 @@ const Footer = () => (
         <Box p={3} backgroundColor="primaryDark" as="footer">
           <FooterContainer>
             <Fade left>
-              <TextFooter fontSize={[2, 3]}>
+              <TextFooter fontSize={[1.5, 2]}>
                 <span>{`${name} Portfolio - Powered by `}</span>
                 <Link href="https://www.gatsbyjs.org/">Gatsby</Link>
                 <span>, </span>
@@ -58,9 +58,6 @@ const Footer = () => (
                 <Link href="https://www.netlify.com/" mr={1}>
                   Netlify
                 </Link>
-                <span role="img" aria-label="heart">
-                  ❤️
-                </span>
               </TextFooter>
             </Fade>
             <Flex>
