@@ -17,6 +17,7 @@ const SectionContainer = styled.div`
   justify-content: center;
   padding: 5em 1em;
   scroll-behavior: smooth;
+  background-color: #ededed;
 `;
 
 const DefaultBackground = () => <div />;
