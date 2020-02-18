@@ -47,7 +47,7 @@ const Footer = () => (
         <Box p={3} backgroundColor="primaryDark" as="footer">
           <FooterContainer>
             <Fade left>
-              <TextFooter fontSize={[1.5, 2]}>
+              <TextFooter fontSize={[1, 1, 2]}>
                 <span>{`${name} Portfolio - Powered by `}</span>
                 <Link href="https://www.gatsbyjs.org/">Gatsby</Link>
                 <span>, </span>
